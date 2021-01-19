@@ -97,7 +97,7 @@
 
 
   <div class="container text-#8B4513 py-5 text-center">
-  	<h3>Product List</h3>
+  	<h2>Product List</h2>
   </div>
 
 
