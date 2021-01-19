@@ -21,7 +21,7 @@
     <div class="px-4 px-lg-0">
         <!-- For demo purpose -->
         <div class="container text-#8B4513 py-5 text-center">
-            <h3><i class="fas fa-shopping-cart"></i> Shopping Cart</h3>
+            <h2><i class="fas fa-shopping-cart"></i> Shopping Cart</h2>
         </div>
         <!-- End -->
 
