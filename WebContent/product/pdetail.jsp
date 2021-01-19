@@ -30,8 +30,14 @@
 	body {
 		width: 100%;
 		height: 100%;
+		
 	}
-	
+	h2{
+		margin-bottom: 30px;
+	}
+	.container{
+	padding-top: 50px;
+	}
 	.zoom {
 		display: inline-block;
 		position: relative;
