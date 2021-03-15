@@ -19,7 +19,14 @@
         table {
             padding-left: 120px;
         }
-		#product_sidebar li{
+        #product_sidebar img{
+      		width: 42px;
+      		align-content: center;
+      		margin-left: 15px;
+        }
+        
+        
+/* 		#product_sidebar li{
 			border-top: 1px solid #5a6268;
 			border-bottom: 1px solid #5a6268;
 			padding: 5px 0px;
@@ -37,7 +44,7 @@
 		.product-card{
 			border: 1px solid gray;
 			box-shadow: 5px 5px 10px black;
-		}
+		} */
     </style>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -58,7 +65,7 @@
 			</li>
 			<li>
 				<a href="<%=NoForm%>pcategorylist&mode=digestiveapparatus&${requestScope.parameters}">
-					<img src="${pageContext.request.contextPath}/images/icon/icon_digestiveapparatus.png">
+					<img src="${pageContext.request.contextPath}/images/icon/icon_digestiveapparatus.png" >
 				</a>
 			</li>
 			<li>
@@ -86,13 +93,13 @@
 					<img src="${pageContext.request.contextPath}/images/icon/icon_immunity.png">
 				</a>
 			</li>
-			<c:if test="${whologin == 2}">
-				<li>
-					<a href="<%=NoForm%>pcategorylist&mode=immunity&${requestScope.parameters}">
-						<img src="${pageContext.request.contextPath}/images/icon/icon_barcode.png">
-					</a>
-				</li>
-			</c:if>
+				<c:if test="${whologin == 2}">
+					<div class="con" style="margin-top:30px;">														
+				 		<a href="<%=NoForm%>pnewproduct"> 
+							<img src="${pageContext.request.contextPath}/images/icon/icon_barcode.png" >
+						</a> 
+					</div>	
+				</c:if>	
 		</ul>
 	</div>
 	<div class="container text-#8B4513 py-5 text-center">
